@@ -4,7 +4,11 @@ namespace App\Domains\Dynamic\Enums;
 
 enum EntityTypeCodesEnum: string
 {
-    case VISITS = '\App\Domains\Dynamic\Events\VisitEvents'; //ISR / IAM / Визиты
+
+    /**
+     * Связь кода и неймспейса репозитория событий для элементов смарт-процесса "Посещения" для примера работы сервиса
+     */
+    case VISITS = '\App\Domains\Dynamic\Events\VisitEvents';
 
     public static function tryFromName(string $name)
     {
