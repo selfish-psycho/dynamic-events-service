@@ -4,7 +4,6 @@ namespace App\Domains\Dynamic\Enums;
 
 enum EntityTypeCodesEnum: string
 {
-
     /**
      * Связь кода и неймспейса репозитория событий для элементов смарт-процесса "Посещения" для примера работы сервиса
      */
